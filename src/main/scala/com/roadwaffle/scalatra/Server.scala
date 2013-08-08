@@ -20,6 +20,8 @@ object Server {
     server.setHandler(context)
 
     server.start
+
+		println(s"Started Jetty server on port ${port}")
     server.join
   }
 }
