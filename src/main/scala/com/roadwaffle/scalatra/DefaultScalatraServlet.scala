@@ -8,8 +8,9 @@ class DefaultScalatraServlet extends ScalatraServlet with ScalateSupport {
 	get("/") {
 		contentType = "text/html"
 
-		ssp("/index", "who" -> "World")
-		// layoutTemplate("/WEB-INF/templates/views/index.ssp")
+		ssp("/index.ssp", "who" -> "World")
+
+		//layoutTemplate("/WEB-INF/templates/views/index.ssp")
 	}
 
 	notFound {
