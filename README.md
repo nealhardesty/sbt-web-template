@@ -1,4 +1,4 @@
 sbt-web-template
 ================
 
-A starter template project for a simple SBT/Scala jetty web server
+A starter template project for a simple SBT/Scala/Scalatra/Jetty web server
